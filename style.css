@@ -43,6 +43,8 @@ body {
 
 .spacer {
   background-color: #000;
+  line-height: 100vh;
+  text-align: center;
 }
 
 .full {
@@ -68,6 +70,10 @@ body {
 
 .fourth {
   background-image: url('http://4.bp.blogspot.com/_uvKNYOg3zPo/S-EVEdWXStI/AAAAAAAAAfw/Xu4MN59yqAc/s1600/Tom_Brady2.jpg');
+}
+
+.fifth {
+  background-image: url('https://media.giphy.com/media/1tr8sUvZXKSQM/giphy.gif');
 }
 
 

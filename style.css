@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "Patriots";
+    src: url(patriots.ttf);
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url(OpenSans-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Patriots", sans-serif;
+  color: #FFF;
+}
+
+.parallax {
+  position: relative;
+  text-align: center;
+  /* Parallax Settings */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-text {
+  font-family: 'Open Sans';
+  font-size: 4rem;
+  color: #FFF;
+}
+
+.content {
+  background-color: #000;
+  height: 33vh;
+  line-height: 33vh;
+  text-align: center;
+}
+
+.spacer {
+  background-color: #000;
+}
+
+.full {
+  height: 100vh;
+}
+
+.half {
+  height: 50vh;
+}
+
+.first {
+  background-image: url('https://s-media-cache-ak0.pinimg.com/originals/cf/34/5d/cf345d0c71c311077757787182ecaffa.jpg');
+  text-align: left;
+}
+
+.second {
+  background-image: url('https://i.ytimg.com/vi/pFz8mrwQv5E/maxresdefault.jpg');
+}
+
+.third {
+  background-image: url('http://dailysnark.com/wp-content/uploads/2016/09/tom-brady-ftr-twitter-061415_12r0mtmdc6qpj11a5ehe22q1uo.png');
+}
+
+.fourth {
+  background-image: url('http://4.bp.blogspot.com/_uvKNYOg3zPo/S-EVEdWXStI/AAAAAAAAAfw/Xu4MN59yqAc/s1600/Tom_Brady2.jpg');
+}
+
+
+/* Opening Section */
+
+.title {
+  position: relative;
+  top: 50px;
+  margin: 0 0 40px 40px;
+  font-size: 5rem;
+}
+
+.scroll-indicator {
+  position: absolute;
+  left: 200px;
+  bottom: 100px;
+  font-size: 3rem;
+  text-align: center;
+  transition: all 1.5s ease;
+  opacity: 1;
+}
+
+.clear {
+  opacity: 0;
+}
+
+.blink {
+  animation: 2s infinite ease-out blink;
+}
+
+@keyframes blink {
+  0% { opacity: 0.0; }
+  50% { opacity: 1.0; }
+  100% { opacity: 0.0; }
+}
